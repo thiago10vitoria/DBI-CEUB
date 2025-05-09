@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9208343-832B-01B7-7B5F-920A3ABBB225" name="EnderecoCliente">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>97C4008C-B8BF-EC09-7141-341E692A7042</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="58095814-E424-0FE5-D829-2B944CD878BE">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>7069B967-B26E-794D-CE3D-8751DA391DE7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroCliente" id="E229557D-2D27-840D-BC2B-6F7E798D61BF">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>A3A3F03C-B485-4C30-80EA-796D2983EFD8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEndereco" id="F1D3A144-A872-3C6C-71E7-0CAAFBF02729">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>8CC7C8F1-9931-9191-5434-B6FCC95245C1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="B50E600D-7905-BE3E-287A-19031A1874DA">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>874BCB15-38E2-B38C-0F80-36CC86362C87</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="DB7405B6-BFCB-56C4-76CC-A890E87EABE3">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>1D180627-5218-356E-A120-7D9C3B8D29E7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="4CBFEDB6-836E-32E7-B835-540A7563A846">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>E65521A6-359C-B9EA-7F85-E5899129C2B7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="3C38A889-A29E-A8DA-8F63-772A435C6871">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>73F84997-FEF8-3E0B-4795-B1DA93154A07</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="363B74FE-6BB1-C7F5-A992-1D26C4FB6CE4">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>08586160-5878-A3B8-603B-7E713C983B62</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D89F347E-7EAE-742B-BA70-DD56F08483A5" referredColumn="B3CE76CD-5484-57DA-E1EE-B25C9F68322A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B192073D-8EB9-4939-A2CF-30A4E19E13AD" name="EnderecoCliente_PK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>F3544D61-89EA-5574-76AF-6E9883EF2331</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58095814-E424-0FE5-D829-2B944CD878BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACD0C895-E591-8006-BD2F-2E8374B9032A" name="EnderecoCliente_Cliente_FK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>54C7E020-6CB6-780F-BC49-6DB3D222BB71</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="363B74FE-6BB1-C7F5-A992-1D26C4FB6CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

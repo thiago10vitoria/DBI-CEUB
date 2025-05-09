@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1F0F3223-9A62-26AE-921A-3F7CF3886C98">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-08 23:52:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

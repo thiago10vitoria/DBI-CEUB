@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="628C915E-F488-26CB-58AE-BB3CB33D0EAE" name="ItensPedido">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>E3DFC2CA-47C3-0374-F631-3A2E9EA3AAF6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroItem" id="A3BC63B1-B893-971E-9631-98BA4DA5AD76">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>E10DF3BE-CE83-6C58-EB69-42D7A3F8AE5B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPedido" id="1F21BC52-05AC-9AC9-9A7B-975E8E4B5DC8">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>3605D56B-B5FC-9BAB-7004-7D905CB062EF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="6F4DB310-3E45-3E20-26F1-F074E8D163B3">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>828D6530-F2FC-82EA-CE98-488A4CA00449</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="916FE3AB-B8E5-D438-6F9E-81F82198F26F">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>C264204E-8296-0184-2E2D-C3B486F87DC7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="87033AF5-8943-DD68-C37B-EF2D0C4973A4">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>1DD7A11C-B895-36BD-25F7-89A7A16F29D4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produto_codigoProduto" id="659D8E2C-F0D1-AB4B-2BC4-1F9BED1AF642">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>D6FE9405-1404-1988-A265-7594D3CFA5EC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E54BD189-AE9C-A430-AAAA-7BF096673EF0" referredColumn="DA5B3960-3052-D305-8396-82A0B7CA5959"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63B96448-7BAD-70BF-0211-D547E9D4EFCB" name="ItensPedido_PK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>06380122-6C10-6C55-1E28-9DF820CF3952</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3BC63B1-B893-971E-9631-98BA4DA5AD76"/>
+<colUsage columnID="1F21BC52-05AC-9AC9-9A7B-975E8E4B5DC8"/>
+<colUsage columnID="6F4DB310-3E45-3E20-26F1-F074E8D163B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A6FE964-92C5-5E06-F8D5-E9FC9E43E358" name="ItensPedido_Produto_FK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-09 00:52:13 UTC</createdTime>
+<generatorID>E3DF562D-AAD4-D851-CA4F-40AC5DAA3151</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="659D8E2C-F0D1-AB4B-2BC4-1F9BED1AF642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
