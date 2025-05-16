@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6063AB58-93F3-FCD9-A34C-D5F44F547E6E" name="Titular">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-15 23:29:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="69732B19-D400-BA47-095E-F5312179FDC1">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-15 23:29:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="F4635888-CF82-9435-1023-9B98FC47B767">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-15 23:30:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="CD1133F3-6976-B32F-1577-AF2807643AFF">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-15 23:33:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="45BC1A65-2F60-1016-B313-FE6444E82B21">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:18:54 UTC</createdTime>
+<generatorID>D1532503-E810-0DE9-E961-E9CD028147E4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<referedAttribute>485A24FF-92DB-A919-B953-D1371D13B841</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C622DD73-B77B-DA26-2762-10CE15B2372E" name="Titular PK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-15 23:30:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69732B19-D400-BA47-095E-F5312179FDC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

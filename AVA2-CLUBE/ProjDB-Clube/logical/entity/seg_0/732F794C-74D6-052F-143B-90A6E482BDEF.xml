@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="732F794C-74D6-052F-143B-90A6E482BDEF" name="TelefoneDependente">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:12:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="15284504-7158-F1CF-11C5-0A1E41166D44">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:12:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="02158DE7-4114-502C-B774-E145541F69ED">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:12:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneDependente" id="4A62F77E-610C-08F9-898E-FB39C7C76895">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:13:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="EC5E7C37-0BCE-521F-AD3C-09644D051E3A">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:13:59 UTC</createdTime>
+<generatorID>BC6B20B7-5439-75D1-8EFB-8BE6A558FA58</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<referedAttribute>3530B1E0-8BD3-5EEC-FC06-01C980A04C98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="753B50F9-26A3-CB9E-26B6-92822EDCFFE5">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:13:59 UTC</createdTime>
+<generatorID>BC6B20B7-5439-75D1-8EFB-8BE6A558FA58</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<referedAttribute>7D17C66D-6D08-D691-07A8-3907538D46FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B72A9722-B866-9CDB-BD57-7293ACB8900E" name="TelefoneDependente PK">
+<createdBy>thiago.antunes</createdBy>
+<createdTime>2025-05-16 00:12:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="0E91A395-0A61-C5B0-20D5-09F0648F6E08" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15284504-7158-F1CF-11C5-0A1E41166D44</attributeRef>
+<attributeRef>02158DE7-4114-502C-B774-E145541F69ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
