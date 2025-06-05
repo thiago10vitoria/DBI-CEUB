@@ -9,7 +9,6 @@
 
 
 - Nomes de alguns projetos estão fora do padrão solicitado.
-- Não seguiu a regra do nome no COMMIT CHANGE.
 
 
 ## b) Recomendo reforçar seus estudos em:
